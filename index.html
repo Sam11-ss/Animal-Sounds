@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Animal Sound Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Elsie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="col-xs-12 header_div text-center">
+    	<h1 id="header">	
+          Animal Sound Identification!	
+        <img src="image-removebg-preview (2).png" id="logo_img">
+    
+    </h1>
+    <p>Note : Play different sounds like - barking, meowing, chirping and mooing!</p>
+    </div>
+    <div class="main_div">
+      <center>
+    <br>
+    <button class="btn btn-default" onclick="startClassification()" id="div_button">Start</button>
+
+    <h2 id="result_label">I can hear - </h3>
+    <div id ="animal_count">
+      <p>Animal Count is- </p>
+      <h4 id="dog">Dog -</h4>
+      <h4 id="cat">Cat -</h4>
+      <h4 id="bird">Bird -</h4>
+      <h4 id="cow">Cow -</h4>
+         </div>
+    <br>
+    <img src="th-removebg-preview (3).png" id="image" width="300" height="300">
+      </center>
+    </div>
+    <div class="copy_right_footer">Developed by - Samriddhi</div>
+    <script src="main.js"></script>
+    </body>
+    </html>
+    
+
